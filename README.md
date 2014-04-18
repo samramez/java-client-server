@@ -18,8 +18,7 @@ client can request some of those. When the client receives the file from the ser
 contents. (This would be inconvenient for binary files.) The client should be able to recognize ERROR messages and display them to the user.
 
 3.EXIT <exit code>
-The client sends a request to close the connection between the server and the client, the server should print
-out the exit code, and both the client and the server exit gracefully. The EXIT command should have a default parameter. In other words, command “EXIT” and command “EXIT <exit code>” should both work. The client should be continuously running and taking user's input. The client should be sufficiently "smart" to check and filter the user's input and accept only GET, BOUNCE and EXIT commands with appropriate syntax and arguments. All other input should be discarded and the user warned about it. 
+The client sends a request to close the connection between the server and the client, the server should printout the exit code, and both the client and the server exit gracefully. The EXIT command should have a default parameter. In other words, command “EXIT” and command “EXIT <exit code>” should both work. The client should be continuously running and taking user's input. The client should be sufficiently "smart" to check and filter the user's input and accept only GET, BOUNCE and EXIT commands with appropriate syntax and arguments. All other input should be discarded and the user warned about it. 
 -----------------------------------------------------------
 
 
