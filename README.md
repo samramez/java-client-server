@@ -60,10 +60,6 @@ ERROR: no such a file
 
 =======================================================
 
-Example program can be reached at :
-Voice: (925)698-3306
-Email: sam.ramezanli@rutgers.edu
-
 copyright 2014 . All rights reserved! :)
 
 
